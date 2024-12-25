@@ -1,0 +1,90 @@
+body {
+
+  font-family: "Poppins", sans-serif;
+
+  margin: 30px;
+
+  background-color: #dfebf1;
+
+}
+
+.head_bar {
+  text-align: center;
+  padding: 5px 500px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b72a5;
+  color:white;
+}
+
+form {
+
+  margin-bottom: 20px;
+  display: flex; /* Form lurus */
+  flex-direction: column; /* Elemen form sejajar */
+  align-items: flex-start; /* Konten sejajar di awal */
+}
+
+input, select, button {
+
+  padding: 10px;
+  margin: 5px 0;
+  display: block;
+
+}
+
+.books-section {
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.form-group {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+
+
+.books-section > div {
+
+  flex: 1;
+
+}
+
+[data-testid="bookItem"] {
+
+  padding: 10px;
+
+  background-color: #d3f5f5;
+
+  border: 1px solid #495cc5;
+
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+
+}
+
+button {
+  display: flex;
+  align-items: center; 
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.foot_bar {
+  text-align: center;
+  padding: 10px 500px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b72a5;
+  color: white;
+}
